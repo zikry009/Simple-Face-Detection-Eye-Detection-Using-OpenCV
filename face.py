@@ -8,8 +8,8 @@ import cv2
 # object we want to detect a cascade function is trained
 # from a lot of positive(faces) and negative(non-faces)
 # images.
-face_cascade = cv2.CascadeClassifier('C:\ProgramData\Anaconda3\pkgs\opencv-3.3.1-py36h20b85fd_1\Library\etc\haarcascades\haarcascade_frontalface_default.xml')
-eyes_glasses_cascade = cv2.CascadeClassifier('C:\ProgramData\Anaconda3\pkgs\opencv-3.3.1-py36h20b85fd_1\Library\etc\haarcascades\haarcascade_eye_tree_eyeglasses.xml') 
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eyes_glasses_cascade = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml') 
 
 # Trained XML file for detecting eyes
 eye_cascade = cv2.CascadeClassifier('C:\ProgramData\Anaconda3\pkgs\opencv-3.3.1-py36h20b85fd_1\Library\etc\haarcascades\haarcascade_eye.xml') 
